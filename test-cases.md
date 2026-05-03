@@ -1,5 +1,13 @@
 # Test Cases - Login Functionality
 
+# Test Cases – Login Functionality
+
+| TC ID  | Title                         | Preconditions        | Steps                                                                 | Expected Result                          | Priority |
+|--------|------------------------------|---------------------|----------------------------------------------------------------------|------------------------------------------|----------|
+| TC-001 | Valid login                  | User on login page  | 1. Enter valid username  2. Enter valid password  3. Click login     | User is redirected to inventory page     | High     |
+| TC-002 | Invalid password             | User on login page  | 1. Enter valid username  2. Enter invalid password  3. Click login   | Error message is displayed               | High     |
+| TC-003 | Empty fields                 | User on login page  | 1. Leave fields empty  2. Click login                               | Validation error is displayed            | Medium   |
+
 ## Test Case 1: Valid login
 
 Steps:
