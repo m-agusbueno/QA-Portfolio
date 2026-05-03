@@ -1,7 +1,5 @@
 # Test Cases - Login Functionality
 
-# Test Cases – Login Functionality
-
 | TC ID  | Title                         | Preconditions        | Steps                                                                 | Expected Result                          | Priority |
 |--------|------------------------------|---------------------|----------------------------------------------------------------------|------------------------------------------|----------|
 | TC-001 | Valid login                  | User on login page  |  1. Go to http://www.saucedemo.com 2.Enter username: standard_user 3. Enter password: secret_sauce 4. Click login     | User is redirected to inventory page     | High     |
