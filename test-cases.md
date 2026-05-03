@@ -6,5 +6,5 @@
 | TC-002 | Invalid password             | User on login page  | 1. Enter username: standard_user  2. Enter invalid password  3. Click login   | Error message is displayed               | High     |
 | TC-003 | Empty fields                 | User on login page  | 1. Leave fields username and password empty  2. Click login                               | Validation error is displayed            | Medium   |
 | TC-004 | Password usability check     | User on login page  | 1. Enter password  2. Try to verify input                           | User can confirm password input easily   | Medium   |
-
+| TC-005 | Empty password field | User on login page | 1. Enter valid username 2. Leave password empty 3. Click login | Password required validation is displayed | Medium |
 
