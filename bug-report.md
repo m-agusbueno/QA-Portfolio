@@ -1,5 +1,11 @@
 # Bug Report
 
+## Test Environment
+
+- URL: https://www.saucedemo.com
+- Browser: Mozilla Firefox
+- Device: Laptop
+
 ---
 
 ## BUG-001 - Unclear Error Message for Invalid Login Credentials
@@ -9,11 +15,6 @@ TC-002 - Invalid password
 
 ### Summary
 Error message does not clearly indicate whether the issue is with the username or the password
-
-### Environment
-- URL: https://www.saucedemo.com
-- Browser: Mozilla Firefox
-- Device: Laptop
 
 ### Steps to Reproduce:
 1. Navigate to https://www.saucedemo.com
@@ -50,11 +51,6 @@ TC-004
 ### Summary
 Password field does not provide an option to toggle visibility, making it difficult for the users to verify input.
 
-### Environment
-- URL: https://www.saucedemo.com
-- Browser: Mozilla Firefox
-- Device: Laptop
-
 ### Steps to Reproduce:
 1. Navigate to https://www.saucedemo.com
 2. Enter a password in the password field
@@ -87,11 +83,6 @@ TC-008 Cart badge update check
 
 ### Summary
 After opening the shopping cart from the cart icon, the user cannot close or collapse the cart by clicking the cart icon again.
-
-### Environment
-- URL: https://www.saucedemo.com
-- Browser: Mozilla Firefox
-- Device: Laptop
 
 ### Steps to Reproduce
 1. Log into the application
@@ -126,11 +117,6 @@ TC-011 - Add multiple quantities of the same product
 
 ### Summary
 The application does not allow users to add more than one unit of the same product to the cart.
-
-### Environment
-- URL: https://www.saucedemo.com
-- Browser: Mozilla Firefox
-- Device: Laptop
 
 ### Steps to Reproduce
 1. Log into the application
@@ -167,11 +153,6 @@ TC-010 - Empty mandatory checkout fields
 
 ### Summary
 The checkout form accepts unrealistic or insufficient values in mandatory fields without proper validation.
-
-### Environment
-- URL: https://www.saucedemo.com
-- Browser: Mozilla Firefox
-- Device: Laptop
 
 ### Steps to Reproduce
 1. Log into the application
@@ -215,11 +196,6 @@ TC-009 - Successful checkout
 ### Summary
 The product description for "Sauce Labs Backpack" contains technical-style formatting that appears inconsistent with the rest of the application content.
 
-### Environment
-- URL: https://www.saucedemo.com
-- Browser: Mozilla Firefox
-- Device: Laptop
-
 ### Steps to Reproduce
 1. Log into the application
 2. Navigate to the inventory page
@@ -258,11 +234,6 @@ TC-009 - Successful checkout
 
 ### Summary
 Some product names contain technical or code-style terminology that may be confusing or inconsistent for regular users in an e-commerce environment.
-
-### Environment
-- URL: https://www.saucedemo.com
-- Browser: Mozilla Firefox
-- Device: Laptop
 
 ### Steps to Reproduce
 1. Log into the application
@@ -303,11 +274,6 @@ TC-009 - Successful checkout
 ### Summary
 The checkout process does not include a field for the customer's email address.
 
-### Environment
-- URL: https://www.saucedemo.com
-- Browser: Mozilla Firefox
-- Device: Laptop
-  
 ### Steps to Reproduce
 1. Log into the application
 2. Navigate to the inventory page
