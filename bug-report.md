@@ -2,12 +2,12 @@
 
 ---
 
-## BUG-001 - Unclear error message for invalid login credentials
+## BUG-001 - Unclear Error Message for Invalid Login Credentials
 
 ### Related Test Case 
-TC-002
+TC-002 - Invalid password
 
-### Sumary
+### Summary
 Error message does not clearly indicate whether the issue is with the username or the password
 
 ### Environment
@@ -23,7 +23,7 @@ Error message does not clearly indicate whether the issue is with the username o
 
 ### Actual Result
 Message displayed:
-"Epic sadface: Username and password do not match any user in this servic"
+"Epic sadface: Username and password do not match any user in this service"
 
 ### Expected Result
 A clearer message indicating the exact issue (e.g., incorrect password)
@@ -88,6 +88,11 @@ TC-008 Cart badge update check
 ### Summary
 After opening the shopping cart from the cart icon, the user cannot close or collapse the cart by clicking the cart icon again.
 
+### Environment
+- URL: https://www.saucedemo.com
+- Browser: Mozilla Firefox
+- Device: Laptop
+
 ### Steps to Reproduce
 1. Log into the application
 2. Add one or more items to the cart
@@ -121,6 +126,11 @@ TC-011 - Add multiple quantities of the same product
 
 ### Summary
 The application does not allow users to add more than one unit of the same product to the cart.
+
+### Environment
+- URL: https://www.saucedemo.com
+- Browser: Mozilla Firefox
+- Device: Laptop
 
 ### Steps to Reproduce
 1. Log into the application
@@ -158,6 +168,11 @@ TC-010 - Empty mandatory checkout fields
 ### Summary
 The checkout form accepts unrealistic or insufficient values in mandatory fields without proper validation.
 
+### Environment
+- URL: https://www.saucedemo.com
+- Browser: Mozilla Firefox
+- Device: Laptop
+
 ### Steps to Reproduce
 1. Log into the application
 2. Add a product to the cart from the inventory page
@@ -192,13 +207,18 @@ Additional validation rules would improve data quality and prevent unrealistic o
 
 ---
 
-## BUG-006 - Product Description Contains Inconsisten Technical Formatting
+## BUG-006 - Product Description Contains Inconsistent Technical Formatting
 
 ### Related Test Case 
 TC-009 - Successful checkout
 
 ### Summary
 The product description for "Sauce Labs Backpack" contains technical-style formatting that appears inconsistent with the rest of the application content.
+
+### Environment
+- URL: https://www.saucedemo.com
+- Browser: Mozilla Firefox
+- Device: Laptop
 
 ### Steps to Reproduce
 1. Log into the application
@@ -231,13 +251,18 @@ The issue appears in multiple areas of the application, including the inventory 
 
 ---
 
-## BUG-007 - Product Naming Uses Technical/Code-Style Termonology
+## BUG-007 - Product Naming Uses Technical/Code-Style Terminology
 
 ### Related Test Case 
 TC-009 - Successful checkout
 
 ### Summary
 Some product names contain technical or code-style terminology that may be confusing or inconsistent for regular users in an e-commerce environment.
+
+### Environment
+- URL: https://www.saucedemo.com
+- Browser: Mozilla Firefox
+- Device: Laptop
 
 ### Steps to Reproduce
 1. Log into the application
@@ -278,6 +303,11 @@ TC-009 - Successful checkout
 ### Summary
 The checkout process does not include a field for the customer's email address.
 
+### Environment
+- URL: https://www.saucedemo.com
+- Browser: Mozilla Firefox
+- Device: Laptop
+  
 ### Steps to Reproduce
 1. Log into the application
 2. Navigate to the inventory page
@@ -302,42 +332,3 @@ Open
 
 ### Notes
 The absence of an email field limits customer communication and order confirmation capabilities, which are commonly expected in standard e-commerce checkout flows.
-
----
-
-## BUG-009 - Product Description Contains Inconsisten Technical Formatting
-
-### Related Test Case 
-TC-009 - Successful checkout
-
-### Summary
-The product description for "Sauce Labs Backpack" contains technical-style formatting that appears inconsistent with the rest of the application content.
-
-### Steps to Reproduce
-1. Log into the application
-2. Navigate to the inventory page
-3. Locate the "Sauce Labs Backpack" product
-4. Observe the product description
-5. Proceed through checkout and review the same product description again
-   
-### Actual Result
-The following text appears in the product description:
-
-"carry.allTheThings()"
-
-The wording resembles technical or code-style formatting and appears inconsistent with the rest of the product description and UI content.
-
-### Expected Result
-Product descriptions should use clear, user-friendly, and commercially consistent language throughout the application.
-
-### Severity 
-Low
-
-### Priority
-Low
-
-### Status 
-Open
-
-### Notes
-The issue appears in multiple areas of the application, including the inventory page and checkout overview page.
